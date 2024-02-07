@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Codes.KiaClass">
+    <Position X="5.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAQAAAAAAAAAAAAAAAAAAACAAAAgAgAIAAAA=</HashCode>
+      <FileName>KiaClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Codes.SportageClass">
+    <Position X="7.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAgFAAAAAQAAAAAAAAAAAAAAAAAAACAAAAgAgAAIAAA=</HashCode>
+      <FileName>KiaClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Codes.CeratoClass">
+    <Position X="4" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAgFAAAAAQAAAAAAAAAAAAAAAAAAACAAAAgAgAAIAAA=</HashCode>
+      <FileName>KiaClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Codes.NewCarsClass">
+    <Position X="10.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NewCarsClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Codes.RenaultClass" Collapsed="true">
+    <Position X="10.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAQAAAAAAAAAAAAAAAAAAACAAAAgAgAAAAAA=</HashCode>
+      <FileName>RenaultClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Codes.LoganClass" Collapsed="true">
+    <Position X="11.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAQAAAAAAAAAAAAAAAAAAACAAAAgAgAAAAAA=</HashCode>
+      <FileName>RenaultClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Codes.MeganeClass" Collapsed="true">
+    <Position X="9.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAQAAAAAAAAAAAAAAAAAAACAAAAgAgAAAAAA=</HashCode>
+      <FileName>RenaultClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Codes.RepairClass" Collapsed="true">
+    <Position X="16.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAgAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>RepairClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Codes.RepairServiceClass" Collapsed="true">
+    <Position X="18" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RepairServiceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Codes.ServiceClass" Collapsed="true">
+    <Position X="19.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServiceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Codes.ToyotaClass" Collapsed="true">
+    <Position X="14.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAQAAAAAAAAAAAAAAAAAAACAAAAgAgAAAAAA=</HashCode>
+      <FileName>ToyotaClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Codes.CorollaClass" Collapsed="true">
+    <Position X="15.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAQAAAAAAAAAAAAAAAAAAACAAAAgAgAAAAAA=</HashCode>
+      <FileName>ToyotaClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Codes.YarisClass" Collapsed="true">
+    <Position X="13.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAQAAAAAAAAAAAAAAAAAAACAAAAgAgAAAAAA=</HashCode>
+      <FileName>ToyotaClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Codes.VehicleClass" Collapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VehicleClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

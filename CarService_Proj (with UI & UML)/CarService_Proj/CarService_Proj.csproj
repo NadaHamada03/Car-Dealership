@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{983A171E-42FC-428C-BFA7-851D41EEB7D2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CarService_Proj</RootNamespace>
+    <AssemblyName>CarService_Proj</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ComponentFactory.Krypton.Docking">
+      <HintPath>..\..\..\..\Downloads\Krypton-master 2\Krypton-master\Bin\ComponentFactory.Krypton.Docking.dll</HintPath>
+    </Reference>
+    <Reference Include="ComponentFactory.Krypton.Navigator">
+      <HintPath>..\..\..\..\Downloads\Krypton-master 2\Krypton-master\Bin\ComponentFactory.Krypton.Navigator.dll</HintPath>
+    </Reference>
+    <Reference Include="ComponentFactory.Krypton.Ribbon">
+      <HintPath>..\..\..\..\Downloads\Krypton-master 2\Krypton-master\Bin\ComponentFactory.Krypton.Ribbon.dll</HintPath>
+    </Reference>
+    <Reference Include="ComponentFactory.Krypton.Toolkit">
+      <HintPath>..\..\..\..\Downloads\Krypton-master 2\Krypton-master\Bin\ComponentFactory.Krypton.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="ComponentFactory.Krypton.Workspace">
+      <HintPath>..\..\..\..\Downloads\Krypton-master 2\Krypton-master\Bin\ComponentFactory.Krypton.Workspace.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bumper.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bumper.Designer.cs">
+      <DependentUpon>Bumper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfirmPreOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfirmPreOrder.Designer.cs">
+      <DependentUpon>ConfirmPreOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RenaultClass.cs" />
+    <Compile Include="RepairClass.cs" />
+    <Compile Include="RepairServiceClass.cs" />
+    <Compile Include="ServiceClass.cs" />
+    <Compile Include="Shopping Cart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Shopping Cart.Designer.cs">
+      <DependentUpon>Shopping Cart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ToyotaClass.cs" />
+    <Compile Include="Tyres.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tyres.Designer.cs">
+      <DependentUpon>Tyres.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lights.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lights.Designer.cs">
+      <DependentUpon>Lights.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomePage.Designer.cs">
+      <DependentUpon>HomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kia.Designer.cs">
+      <DependentUpon>Kia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KiaClass.cs" />
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewCars.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewCars.Designer.cs">
+      <DependentUpon>NewCars.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewCarsClass.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Renault.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Renault.Designer.cs">
+      <DependentUpon>Renault.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Repair.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Repair.Designer.cs">
+      <DependentUpon>Repair.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service.Designer.cs">
+      <DependentUpon>Service.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Toyota.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Toyota.Designer.cs">
+      <DependentUpon>Toyota.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserClass.cs" />
+    <Compile Include="VehicleClass.cs" />
+    <EmbeddedResource Include="Bumper.resx">
+      <DependentUpon>Bumper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfirmPreOrder.resx">
+      <DependentUpon>ConfirmPreOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomePage.resx">
+      <DependentUpon>HomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kia.resx">
+      <DependentUpon>Kia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lights.resx">
+      <DependentUpon>Lights.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewCars.resx">
+      <DependentUpon>NewCars.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Renault.resx">
+      <DependentUpon>Renault.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Repair.resx">
+      <DependentUpon>Repair.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service.resx">
+      <DependentUpon>Service.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shopping Cart.resx">
+      <DependentUpon>Shopping Cart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Toyota.resx">
+      <DependentUpon>Toyota.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tyres.resx">
+      <DependentUpon>Tyres.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\neww.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Renault-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\repair.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\retro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sell your car.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\services.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toyota.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

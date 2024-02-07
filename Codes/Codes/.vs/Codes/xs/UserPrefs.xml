@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{A5919860-B330-4184-AA71-C8658103733D}|Default">
+  <MonoDevelop.Ide.ItemProperties.Codes PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="KiaClass.cs">
+    <Files>
+      <File FileName="RepairClass.cs" Line="24" Column="1" />
+      <File FileName="ServiceClass.cs" Line="4" Column="44" />
+      <File FileName="VehicleClass.cs" Line="5" Column="6" />
+      <File FileName="CartClass.cs" Line="30" Column="10" />
+      <File FileName="RepairServiceClass.cs" Line="1" Column="1" />
+      <File FileName="NewCarsClass.cs" Line="1" Column="1" />
+      <File FileName="KiaClass.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Codes" expanded="True">
+            <Node name="Codes" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+</Properties>
